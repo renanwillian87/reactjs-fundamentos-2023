@@ -1,7 +1,13 @@
+import Post from "./Post"
+
 function App() {
   return (
     <>      
-      <h1>Init project</h1>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
     </>
   )
 }
