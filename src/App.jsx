@@ -1,4 +1,5 @@
 import Post from "./Post"
+import { Button } from "./Button"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Post/>
       <Post/>
       <Post/>
+      <Button/>
     </>
   )
 }
