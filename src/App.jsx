@@ -1,7 +1,6 @@
-import Post from "./Post"
-import { Button } from "./Button"
+import { Post } from "./Post"
 
-function App() {
+export function App() {
   return (
     <>      
       <Post/>
@@ -9,9 +8,6 @@ function App() {
       <Post/>
       <Post/>
       <Post/>
-      <Button/>
     </>
   )
 }
-
-export default App
